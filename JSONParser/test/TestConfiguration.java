@@ -3,7 +3,7 @@ import java.nio.file.FileSystems;
 import static org.junit.Assert.*;
 import org.junit.Test;
 
-public class ConfigurationTest {
+public class TestConfiguration {
 
 	@Test
 	public void testGoodConfiguration() {
