@@ -27,14 +27,14 @@ public class FileStats {
 	 * then the pattern should include anything not a letter (upper/lower) or digit (0-9).
 	 * @param fileName - Path to the file.
 	 * @param digitDelimiter - true if digits should be used as a delimiter and false otherwise.
-	 * @throws IOException
 	 */
-	public FileStats(Path fileName, boolean digitDelimiter) throws IOException {
+	public FileStats(Path fileName, boolean digitDelimiter) {
 		//TODO: Complete method.
 	}
 	
 	/**
 	 * Returns the number of tokens found in the file.
+	 * Return -1 if any exception is encountered processing the file.
 	 * @return
 	 */
 	public int getWordCount() {
@@ -71,12 +71,8 @@ public class FileStats {
 		
 		Path path = FileSystems.getDefault().getPath("input/test1.txt");
 		FileStats fs = null;
-		try {
-			fs = new FileStats(path, true);
-			System.out.println(fs.getWordCount());
-		} catch(IOException ioe) {
-			ioe.printStackTrace();
-		}
+		fs = new FileStats(path, true);
+		System.out.println(fs.getWordCount());
 
 	}
 	
