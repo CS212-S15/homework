@@ -1,5 +1,6 @@
 import static org.junit.Assert.*;
 
+import java.io.File;
 import java.io.IOException;
 import java.nio.file.FileSystems;
 import java.nio.file.Path;
@@ -46,7 +47,7 @@ public class TestFileStats {
 		Path path = FileSystems.getDefault().getPath("input/test1.txt");
 		FileStats fs = null;
 		fs = new FileStats(path, false);
-		assertEquals("Correct fileName.", "input/test1.txt", fs.getFileName());			
+		assertEquals("Correct fileName.", "input" + File.separator + "test1.txt", fs.getFileName());			
 	}
 
 }
