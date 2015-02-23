@@ -16,7 +16,7 @@ public class TestTFIDF {
 	public void testThreeWordQuery() {
 		
 		ArrayList<Double> expected = new ArrayList<>();
-		expected.add(0.0587);
+		expected.add(0.0503);
 		expected.add(0.088);
 		expected.add(0.0587);
 		
@@ -44,7 +44,7 @@ public class TestTFIDF {
 	public void testOneWord() {
 		
 		ArrayList<Double> expected = new ArrayList<>();
-		expected.add(0.0587);
+		expected.add(0.0503);
 		expected.add(0.044);
 		expected.add(0.0);
 		
@@ -57,7 +57,7 @@ public class TestTFIDF {
 	public void testTwoWordQuery() {
 		
 		ArrayList<Double> expected = new ArrayList<>();
-		expected.add(0.0587);
+		expected.add(0.0503);
 		expected.add(0.0880);
 		expected.add(0.0587);
 		
