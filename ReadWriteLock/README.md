@@ -11,16 +11,12 @@ The following files are required for this project.
 
 - [`src/ReadWriteLock.java`](src/ReadWriteLock.java)
 - [`src/ReadWriteLockTest.java`](src/ReadWriteLockTest.java)
-- [`ThreadSafePathSet.java`](src/ThreadSafePathSet.java)
-- [`ThreadSafePathSetTest.java`](src/ThreadSafePathSetTest.java)
-
-Please download the above files and add them to your Java project in Eclipse to get started. See the [Homework README](../README.md) for details on how to download individual files or subdirectories from this repository.
+- [`src/ThreadSafePathSet.java`](src/ThreadSafePathSet.java)
+- [`src/ThreadSafePathSetTest.java`](src/ThreadSafePathSetTest.java)
 
 ## Hints ##
 
 Below are some hints that may help with this homework assignment:
-
-- Look at the lecture notes for starter code on the custom read write lock.
 
 - Decide whether a block of operations are read operations, write operations, or mixed (and hence need a write lock) **with respect to the shared data**.  
 
