@@ -46,3 +46,5 @@ Below are some hints that may help with this homework assignment:
 - You can write the unit tests for `HTMLLinkParserExtraTest` BEFORE completing the regular expression in `HTMLLinkParser`.
 
 You are not required to use these hints in your solution. There may be multiple approaches to solving this homework.
+
+**Many thanks to Sophie Engle, original author of this homework assignment.
