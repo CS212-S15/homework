@@ -23,3 +23,5 @@ Below are some hints that may help with this homework assignment:
 - The provided tests are not fool-proof. They try to recreate conditions that will cause issues if your lock or set are incorrectly implemented, but just because the tests pass does not mean your implementations are correct.
 
 You are not required to use these hints in your solution. There may be multiple approaches to solving this homework.
+
+**Many thanks to Sophie Engle, original author of this assignment.
